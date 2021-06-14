@@ -6,7 +6,7 @@ name: Projeto Quarkus Estudo
 on:
   push:
     branches:
-    - master
+    - main
     - develop
     - 'release/**'
     tags:
@@ -15,7 +15,7 @@ on:
     - '**.md'
   pull_request:
     branches:
-    - master
+    - main
     - develop
     - 'release/**'
     tags:
@@ -24,7 +24,7 @@ jobs:
    Test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
     - name: Setup java
       uses: joschi/setup-jdk@v1
       env:
@@ -39,7 +39,7 @@ jobs:
     needs: Test
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
     - name: Setup java
       uses: joschi/setup-jdk@v1
       with:
