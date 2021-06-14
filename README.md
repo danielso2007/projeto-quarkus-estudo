@@ -1,3 +1,5 @@
+[![Projeto Quarkus Estudo](https://github.com/danielso2007/projeto-quarkus-estudo/actions/workflows/projeto-quarkus-estudo-maven.yml/badge.svg)](https://github.com/danielso2007/projeto-quarkus-estudo/actions/workflows/projeto-quarkus-estudo-maven.yml)
+
 # projeto-quarkus project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
