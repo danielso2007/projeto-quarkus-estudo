@@ -15,6 +15,7 @@ import io.quarkus.test.junit.QuarkusTest;
 
 @QuarkusTest
 @TestHTTPEndpoint(ProdutoResource.class)
+@QuarkusTestResource(DatabaseLifecycleTest.class)
 public class ProdutoResourceTest {
     
     @TestHTTPResource("/produtos")
